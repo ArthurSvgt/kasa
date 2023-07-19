@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 0 30px;
+    font-family: "Montserrat";
+}
+
+.h1-name {
+    font-size: 70px;
+    color: rgba(255, 96, 96, 1);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin-left: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 30px;
+    color: rgba(255, 96, 96, 1);
+
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("C:\Users\arthu\OneDrive\Bureau\P7\kasa\src\fonts\Montserrat-Regular.ttf");
+}

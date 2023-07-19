@@ -1,0 +1,22 @@
+.bg-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/bg-home.png');
+    background-size: cover;
+    height: 18em;
+    border-radius: 25px;
+    margin-top: 2%;
+}
+
+.text-bg {
+    font-family: "Montserrat";
+    color: rgba(255, 255, 255, 1);
+    font-size: 48px;
+}
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("C:\Users\arthu\OneDrive\Bureau\P7\kasa\src\fonts\Montserrat-Regular.ttf");
+}

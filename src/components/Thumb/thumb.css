@@ -1,0 +1,26 @@
+.loc-square {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.loc-title {
+    margin-top: 75%;
+    margin-left: 5%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #ffffff;
+};

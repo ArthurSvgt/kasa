@@ -1,0 +1,18 @@
+.listApartments {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+
+    margin-top: 90px;
+    
+    background: #F7F7F7;
+    border-radius: 25px;
+    padding: 5%;
+
+}
+
+.home {
+    padding: 2%;
+}
