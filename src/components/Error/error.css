@@ -1,0 +1,44 @@
+.title-error {
+    font-size: 288px;
+    color: rgba(255, 96, 96, 1);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+}
+
+#oups {
+    font-size: 36px;
+    color: rgba(255, 96, 96, 1);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+#back-home {
+    font-size: 18px;
+    color: rgba(255, 96, 96, 1);
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+a {
+    color: rgba(255, 96, 96, 1);
+}
+
+@media screen and (max-width: 1024px) {
+    .title-error{  
+        font-size: 144px;
+        
+    }
+
+    #oups {
+        font-size: 18px;
+
+    }
+
+    #back-home {
+        font-size: 14px;
+
+    }
+}

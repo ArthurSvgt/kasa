@@ -23,4 +23,13 @@
     align-items: flex-end;
 
     color: #ffffff;
-};
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .loc-square {
+        width: 100%;
+        height: 100%;
+    }
+
+}
