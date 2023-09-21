@@ -4,6 +4,7 @@ import LogementCard from '../../components/LogementCard/logementCard'
 import { Apartments } from '../../data/dataList'
 import './logement.css'
 import { useParams } from 'react-router-dom';
+import Carrousel from '../../components/Carrousel/carrousel'
 import Footer from '../../components/Footer/footer'
 import Error from '../../components/Error/error'
 
@@ -20,6 +21,9 @@ function Logement() {
     return (<div className='logement-body'>
         <div className='logement'>
             <Header />
+            <Carrousel
+                imgSrc={apartment.pictures}
+            />
             <HeaderLogement
                 titleValue={apartment.title}
                 key={apartment.id}

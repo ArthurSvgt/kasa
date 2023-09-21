@@ -5,12 +5,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 }
 
-
+.card-link {
+    text-decoration: none;
+}
 
 .loc-title {
-    margin-top: 75%;
     margin-left: 5%;
 
     font-family: 'Montserrat';
@@ -23,13 +25,4 @@
     align-items: flex-end;
 
     color: #ffffff;
-}
-
-@media screen and (max-width: 1024px) {
-    
-    .loc-square {
-        width: 100%;
-        height: 100%;
-    }
-
 }

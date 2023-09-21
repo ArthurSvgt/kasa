@@ -9,14 +9,14 @@ import Footer from '../../components/Footer/footer'
 
 function Home() {
   const listApartments = Apartments.map(apartment =>
-    <Card titleValue={apartment.title} key={apartment.id} imgValue={apartment.cover} />
+    <Card titleValue={apartment.title} id={apartment.id} key={apartment.id} imgValue={apartment.cover} />
   )
   return <div className='home-body'>
     <div className='main'>
       <div className='home'>
         <Header />
         <Background />
-        <div className='listApartments'>{listApartments}</div>
+        <section className='listApartments'>{listApartments}</section>
       </div>
     </div>
     <Footer />

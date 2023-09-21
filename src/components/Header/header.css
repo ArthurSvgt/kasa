@@ -11,6 +11,10 @@
     color: rgba(255, 96, 96, 1);
 }
 
+.h1-name a {
+    text-decoration: none;
+}
+
 ul {
     display: flex;
     list-style-type: none;

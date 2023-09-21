@@ -10,7 +10,7 @@ function Error() {
                 <div>
                     <h1 className='title-error'>404</h1>
                     <p id='oups'>Oups! La page que vous demandez n'existe pas.</p>
-                    <p id='back-home'><a href='#'>Retourner sur la page d'accueil</a></p>
+                    <p id='back-home'><a href='/'>Retourner sur la page d'accueil</a></p>
                 </div>
             </div>
             <Footer />
